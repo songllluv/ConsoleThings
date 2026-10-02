@@ -50,6 +50,7 @@ LRESULT CALLBACK MouseHookProc(int nCode, WPARAM wParam, LPARAM lParam) {
 			// 这里添加解除机房管理的实际代码
 				ForceTerminateProcessByName(L"student.exe");
 				ForceTerminateProcessByName(L"smonitor.exe");
+				ForceTerminateProcessByName(L"studentmain.exe");
 			
 		}
 	}
